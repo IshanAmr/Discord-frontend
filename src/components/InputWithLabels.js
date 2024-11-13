@@ -15,7 +15,7 @@ const Label = styled('p') ({
     fontSize : "16px"
 })
 
-const Input = styled('div') ({
+const Input = styled('input') ({
     flexGrow : 1,
     height : "40px",
     border : "1px solid black",

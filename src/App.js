@@ -8,9 +8,11 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* Login page route */}
         <Route path='/login' element={<LoginPage />} />
-        {/* Example of a protected route, if needed later */}
-        {/* <Route path='/dashboard' element={<Dashboard />} /> */}
+        
+        {/* Register page route */}
+        <Route path='/register' element={<RegisterPage />} />
         
         {/* Redirect to login page when accessing root path */}
         <Route path='/' element={<Navigate to='/login' />} />

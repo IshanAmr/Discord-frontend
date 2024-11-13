@@ -12,8 +12,6 @@ const LoginPage = () => {
     const [password, setPassword] = useState('');
     const [isFormvalid, setIsFormValid] = useState(false);
 
-
-
     useEffect(() => {
         setIsFormValid(validateLoginForm({ mail, password }))
 

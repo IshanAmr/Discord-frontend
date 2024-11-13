@@ -13,6 +13,7 @@ function App() {
         
         {/* Register page route */}
         <Route path='/register' element={<RegisterPage />} />
+
         
         {/* Redirect to login page when accessing root path */}
         <Route path='/' element={<Navigate to='/login' />} />
